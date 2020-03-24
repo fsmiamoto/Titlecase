@@ -1,0 +1,12 @@
+github.com/AlasdairF/BinSearch v0.0.0-20170728053850-96187ac05e89 h1:4Aw39gnSiJsxQTofi91o/nYAY/VhazylvFGvqo0zIQw=
+github.com/AlasdairF/BinSearch v0.0.0-20170728053850-96187ac05e89/go.mod h1:OIUmn6yWqk3u1Gz056+AIL28C/98z15mGlQftFjAZqY=
+github.com/AlasdairF/Conv v0.0.0-20170228095014-b55e025a049e h1:/4XUUV6u2t1vvavJ0HY+kLy8a2bew0KJk87CJidRhi8=
+github.com/AlasdairF/Conv v0.0.0-20170228095014-b55e025a049e/go.mod h1:aonr4SH/q3GS4WxGhUQ4DVvaZWvxSdyIVcufpNZATYI=
+github.com/AlasdairF/Custom v0.0.0-20161026102731-1889d7b07a22 h1:wT22wex8TyFhmTK9CuYqJc7H5jJE8MTQBAQeFFYHPi4=
+github.com/AlasdairF/Custom v0.0.0-20161026102731-1889d7b07a22/go.mod h1:qxohxlo5frlPQhXvuXkyBat+GF3Amh0qVypYh6EpA+Q=
+github.com/AlasdairF/Sort v0.0.0-20151231061431-ebdbd9946084 h1:/JfADoi5PlbV/QsjSZaqBoR3m40/DYwRr9MkVYuQST4=
+github.com/AlasdairF/Sort v0.0.0-20151231061431-ebdbd9946084/go.mod h1:syX9nNqTDcog3+Br58+CvuZaUizMNQL5dCbxqxVPxiE=
+github.com/AlasdairF/snappy v0.0.0-20160114083434-d1c9103b7e94 h1:hluQ6rw381NNBeCafSsLprE2bas7Vq6Nbkd9Ot0f78E=
+github.com/AlasdairF/snappy v0.0.0-20160114083434-d1c9103b7e94/go.mod h1:CcTh3SSpWb4wI01dEe1q8jxDEXyxLLl/SHe2AMl9Phk=
+github.com/klauspost/compress v1.10.3 h1:OP96hzwJVBIHYU52pVTI6CczrxPvrGfgqF9N5eTO0Q8=
+github.com/klauspost/compress v1.10.3/go.mod h1:aoV0uJVorq1K+umq18yTdKaF57EivdYsUV+/s2qKfXs=
