@@ -42,6 +42,10 @@ const (
 	portuguese
 )
 
+const (
+	upperAll = -1
+)
+
 type honorStruct struct {
 	binsearch.KeyRunes
 	format [][]rune
@@ -446,7 +450,7 @@ func isContraction(wb []rune) bool {
 }
 
 func upperRune(word []rune, which int) {
-	if which == -1 {
+	if which == upperAll {
 		for i, r := range word {
 			if r == 39 || r == '’' { // stop uppercasing when an apostrophe is reached
 				return
@@ -634,7 +638,13 @@ func format(str string, language uint8, formatAuthor bool) (string, *AuthorStruc
 		// Uppercase roman numerals
 		if isRoman(content) {
 			ws.isRoman = true
-			upperRune(content, -1) // -1 means uppercase all
+			upperRune(content, upperAll)
+			continue
+		}
+
+		// Uppercase all if it starts with a digit like in 1A,4B
+		if startsWithDigit(content) {
+			upperRune(content, upperAll)
 			continue
 		}
 
@@ -1077,4 +1087,11 @@ func format(str string, language uint8, formatAuthor bool) (string, *AuthorStruc
 	last.Close()
 
 	return bufString, author
+}
+
+func startsWithDigit(word []rune) bool {
+	if len(word) < 1 {
+		return false
+	}
+	return unicode.IsDigit(word[0])
 }
